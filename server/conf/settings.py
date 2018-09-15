@@ -55,6 +55,7 @@ WEBSOCKET_CLIENT_ENABLED = True
 WEBSOCKET_CLIENT_PORT = 4005
 # Internal Server-Portal port. Not visible.
 AMP_PORT = 4006
+INSTALLED_APPS += ('paxboards',)
 
 ######################################################################
 # Settings given in secret_settings.py override those in this file.
